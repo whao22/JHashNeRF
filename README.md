@@ -14,8 +14,6 @@ This project is built on top of the super-useful [NeRF-pytorch](https://github.c
 
 ## 安装
 
-本项目大致需要占用7G显存，在3090上训练时间大约2.5小时。
-
 #### 运行环境
 
 - ubuntu 20.04 LTS
@@ -45,7 +43,7 @@ python run_nerf.py --config ./configs/Scar.txt
 
 ```
 测试:
-python test.py
+python val.py --config ./configs/$scene.txt --ft_path=lohs/$scene.tar
 ```
 
 ## 致谢

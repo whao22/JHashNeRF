@@ -28,7 +28,6 @@ perf.data.old
 
 *.obj
 
-test.py
 
 extern/mkl/mkldnn_lnx*/*
 
